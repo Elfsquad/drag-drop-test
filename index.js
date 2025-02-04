@@ -1,12 +1,6 @@
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
-const button = document.querySelector('button');
-button.addEventListener('click', () => {
-  console.log('button clicked');
-});
-
-
 let draggingData = null;
 let draggingPosition = { x: 0, y: 0 };
 
